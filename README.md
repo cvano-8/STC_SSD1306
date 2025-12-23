@@ -1,4 +1,4 @@
-# Dynamic 7-Segment Display Generator for SSD1306 OLED
+# Displaying 7-Segment Digits On OLED With STC8G1K17
 
 ## 📌 Proje Özeti / Project Overview
 Bu proje, **STC8G1K17** mikrodenetleyicisi ve **SSD1306 128x64 OLED** ekran kullanarak, herhangi bir bitmap fonta bağlı kalmadan **dinamik olarak 7-segment tarzı rakamlar oluşturan** bir kütüphane ve örnek uygulamadır.
