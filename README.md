@@ -1,0 +1,49 @@
+# Dynamic 7-Segment Display Generator for SSD1306 OLED
+
+## 📌 Proje Özeti / Project Overview
+Bu proje, **STC8G1K17** mikrodenetleyicisi ve **SSD1306 128x64 OLED** ekran kullanarak, herhangi bir bitmap fonta bağlı kalmadan **dinamik olarak 7-segment tarzı rakamlar oluşturan** bir kütüphane ve örnek uygulamadır.
+
+This project is a library and example application that **dynamically generates 7-segment style digits** without relying on any bitmap font, using the **STC8G1K17 microcontroller** and **SSD1306 128x64 OLED display**.
+
+---
+
+## ✨ Temel Özellikler / Key Features
+
+### 🎯 Dinamik Rakam Oluşturma / Dynamic Digit Generation
+- **Font Dosyası Gerekmez:** Rakamlar algoritmik olarak çizilir, harici font dosyası kullanılmaz.
+- **Ölçeklenebilir:** İstenilen boyutta rakamlar oluşturulabilir (pixel cinsinden yükseklik ayarlanabilir).
+- **Esnek Konumlandırma:** Rakamlar ekranın herhangi bir konumuna çizilebilir.
+
+- **No Font File Required:** Digits are drawn algorithmically, no external font file needed.
+- **Scalable:** Can generate digits at any desired size (height adjustable in pixels).
+- **Flexible Positioning:** Digits can be drawn at any position on the screen.
+
+### 🏗️ Teknik Detaylar / Technical Details
+- **Bellek Kullanımı / Memory Usage:** ~4KB (optimize edilmiş algoritma / optimized algorithm)
+- **Derleyici / Compiler:** SDCC (Small Device C Compiler)
+- **IDE:** Code::Blocks
+- **İletişim Protokolü / Communication:** I²C (TWI)
+
+
+### 🎯 Proje Amacı / Project Purpose
+1. **Eğitici Örnek / Educational Example:** STC8G1K17 + SSD1306 kullanımı için pratik bir referans
+2. **Kütüphane / Library:** Kullanıcıların kendi projelerinde kullanabileceği yeniden kullanılabilir kod
+3. **Algoritma Gösterimi / Algorithm Demonstration:** Dinamik grafik oluşturma tekniklerinin gösterimi
+
+---
+
+## 🛠️ Donanım Bağlantıları / Hardware Connections
+
+### Gerekli Bileşenler / Required Components
+- **Mikrodenetleyici / MCU:** STC8G1K17 geliştirme kartı
+- **Ekran / Display:** 0.96" SSD1306 128x64 OLED (I²C arayüzü)
+- **Bağlantı / Connection:** Breadboard ve jumper kablolar
+
+### Bağlantı Şeması / Connection Diagram
+
+| OLED Pin | STC8G1K17 Pin | Function / İşlev |
+| :------- | :------------ | :--------------- |
+|  VCC     |  3.3V         | Power / Güç      |
+|  GND     |  GND          | Ground / Toprak  |
+|  SCL     |  P3.2         | I²C Clock        |
+|  SDA     |  P3.3         | I²C Data         |
