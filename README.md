@@ -22,7 +22,7 @@ This project is a library and example application that **dynamically generates 7
 - **Bellek Kullanımı / Memory Usage:** ~4KB (optimize edilmiş algoritma / optimized algorithm)
 - **Derleyici / Compiler:** SDCC (Small Device C Compiler)
 - **IDE:** Code::Blocks
-- **İletişim Protokolü / Communication:** I²C (TWI)
+- **İletişim Protokolü / Communication:** I²C
 
 
 ### 🎯 Proje Amacı / Project Purpose
