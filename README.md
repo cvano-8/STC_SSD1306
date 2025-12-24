@@ -52,10 +52,10 @@ This project is a library and example application that **dynamically generates 7
 ## 🛠️ Donanım Bağlantıları / Hardware Connections
 
 ### Gerekli Bileşenler / Required Components
-- **Mikrodenetleyici / MCU: ** STC8G1K17
-- **Ekran / Display: ** 0.96" SSD1306 128x64 OLED (I²C arayüzü)
-- **Programlama Adaptörü / Programming Adapter: ** FTDI - FT232RL USB To TTL(UART)
-- **Bağlantı / Connection: ** Breadboard ve jumper kablolar
+- **Mikrodenetleyici / MCU:** STC8G1K17
+- **Ekran / Display:** 0.96" SSD1306 128x64 OLED (I²C arayüzü)
+- **Programlama Adaptörü / Programming Adapter:** FTDI - FT232RL USB To TTL(UART)
+- **Bağlantı / Connection:** Breadboard ve jumper kablolar
 
 ### Bağlantı Şeması / Connection Diagram
 
