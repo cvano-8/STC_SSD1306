@@ -68,4 +68,9 @@ This project is a library and example application that **dynamically generates 7
 
 ---
 
-[![VIDEO](https://img.youtube.com/vi/pvUgbxlscnNg3Axm/0.jpg)](https://youtube.com/shorts/DC_wp1Rv_Vc?si=pvUgbxlscnNg3Axm)
+<iframe width="560" height="315" 
+src="https://youtube.com/shorts/DC_wp1Rv_Vc?si=DcMDoaKBVzcmw3pS" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
