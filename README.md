@@ -65,3 +65,7 @@ This project is a library and example application that **dynamically generates 7
 |  GND     |  GND          | Ground / Toprak  |
 |  SCL     |  P3.2         | I²C Clock        |
 |  SDA     |  P3.3         | I²C Data         |
+
+---
+
+[![VIDEO](https://img.youtube.com/vi/pvUgbxlscnNg3Axm/0.jpg)](https://youtube.com/shorts/DC_wp1Rv_Vc?si=pvUgbxlscnNg3Axm)
