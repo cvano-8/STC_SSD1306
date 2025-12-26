@@ -69,6 +69,5 @@ This project is a library and example application that **dynamically generates 7
 ---
 <img width="1920" height="1080" alt="vlcsnap-2025-12-25-04h55m56s002" src="https://github.com/user-attachments/assets/42270182-4597-4526-8453-25ca1fa87211" />
 
-Video https://youtube.com/shorts/DC_wp1Rv_Vc?si=8D2Y7Zv9Py_LzmPn
 
 
